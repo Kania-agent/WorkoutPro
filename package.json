@@ -1,0 +1,16 @@
+{
+  "name": "workoutpro",
+  "version": "1.0.0",
+  "description": "Workout routine builder with exercise library, set/rep tracking, muscle group heatmaps, and personal records.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "dashboard",
+    "web-app",
+    "ai-built"
+  ],
+  "author": "Kania-agent",
+  "license": "MIT"
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>WorkoutPro - Gym Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+  <div class="logo">🏋️ WorkoutPro</div>
+  <nav>
+    <a href="#" class="nav-item active">📊 Dashboard</a>
+    <a href="#" class="nav-item">📋 Projects</a>
+    <a href="#" class="nav-item">👥 Team</a>
+    <a href="#" class="nav-item">📈 Analytics</a>
+    <a href="#" class="nav-item">⚙️ Settings</a>
+  </nav>
+</div>
+<div class="main">
+  <div class="topbar">
+    <h1>🏋️ WorkoutPro Dashboard</h1>
+    <div class="user">👤 Admin</div>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card" style="border-top:3px solid #f97316"><div class="stat-value">3,421</div><div class="stat-label">Total Users</div></div>
+    <div class="stat-card" style="border-top:3px solid #10b981"><div class="stat-value">99.1%</div><div class="stat-label">Uptime</div></div>
+    <div class="stat-card" style="border-top:3px solid #f59e0b"><div class="stat-value">8,742</div><div class="stat-label">Tasks Done</div></div>
+    <div class="stat-card" style="border-top:3px solid #8b5cf6"><div class="stat-value">94/100</div><div class="stat-label">Score</div></div>
+  </div>
+  <div class="chart-section">
+    <h2>📈 Analytics Overview</h2>
+    <canvas id="chart" width="800" height="250"></canvas>
+  </div>
+  <div class="cards-section">
+    <h2>✨ Features</h2>
+    <div class="cards-grid">
+<div class="card" style="border-left:3px solid #f97316"><h4>Routine builder</h4><div class="stat">Active</div></div>
+<div class="card" style="border-left:3px solid #f97316"><h4>Exercise library</h4><div class="stat">Active</div></div>
+<div class="card" style="border-left:3px solid #f97316"><h4>Set/rep tracker</h4><div class="stat">Active</div></div>
+<div class="card" style="border-left:3px solid #f97316"><h4>Muscle heatmap</h4><div class="stat">Active</div></div>
+<div class="card" style="border-left:3px solid #f97316"><h4>Personal records</h4><div class="stat">Active</div></div>
+<div class="card" style="border-left:3px solid #f97316"><h4>Rest timer</h4><div class="stat">Active</div></div>
+
+    </div>
+  </div>
+  <div class="table-section">
+    <h2>📋 Recent Activity</h2>
+    <table><thead><tr><th>Action</th><th>User</th><th>Status</th><th>Time</th></tr></thead>
+    <tbody>
+      <tr><td>Project created</td><td>admin@workoutpro.io</td><td><span class="badge success">Done</span></td><td>2 min ago</td></tr>
+      <tr><td>Settings updated</td><td>user@workoutpro.io</td><td><span class="badge success">Done</span></td><td>15 min ago</td></tr>
+      <tr><td>New deployment</td><td>ci@workoutpro.io</td><td><span class="badge warning">Pending</span></td><td>1 hour ago</td></tr>
+      <tr><td>Backup complete</td><td>system@workoutpro.io</td><td><span class="badge success">Done</span></td><td>3 hours ago</td></tr>
+    </tbody></table>
+  </div>
+</div>
+<script src="script.js"></script>
+</body></html>
